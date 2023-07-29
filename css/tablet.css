@@ -1,0 +1,245 @@
+@media (max-width: 992px) {
+  section > .container {
+    /* width: auto; */
+    position: static;
+  }
+
+  /* start header--------------------- */
+  header {
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    color: #f7f7f7;
+  }
+
+  .inner-banner {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    color: #f7f7f7;
+    top: 50%;
+    left: 50%;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 300;
+  }
+
+  .text-info {
+    font-size: 12px;
+    color: #919191;
+  }
+  /* navbar */
+
+  .container-inner {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    justify-items: center;
+  }
+
+  .list-nav-bar {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .list-nav-bar li {
+    display: inline-block;
+    border-right: solid 1px #e2e2e2;
+    padding: 20px 25px 15px 15px;
+    font-size: 12px;
+    vertical-align: bottom;
+    height: auto;
+    text-align: center;
+  }
+
+  .list-nav-bar a {
+    text-decoration: none;
+  }
+
+  .list-nav-bar li:first-child {
+    border-left: solid 1px #e2e2e2;
+  }
+
+  li.avt-nav {
+    width: 40px;
+    height: auto;
+    vertical-align: top;
+    padding: 3px 20px 15px 20px;
+    line-height: 1.25;
+    border: none;
+  }
+
+  li.avt-nav img {
+    display: none;
+  }
+
+  .img-high-level {
+    display: none;
+  }
+
+  /* Start Introduce */
+  /* .grid-container {
+    display: grid;
+    height: auto;
+    width: auto;
+    grid-template-columns: 40% 40%;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 10%;
+    margin: auto;
+  } */
+
+  .item-info {
+    text-align: left;
+    width: 50%;
+    font-size: 12px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .item-info:last-child {
+    text-align: left;
+    width: 50%;
+    font-size: 12px;
+  }
+
+  .item-info p {
+    padding-top: 30px;
+    font-size: 12px;
+    color: #6d6d6d;
+  }
+
+  .info {
+    padding-top: 30px;
+    list-style: none;
+    padding-left: 0%;
+    color: #6d6d6d;
+    /* padding-bottom: 20px; */
+  }
+
+  .info span {
+    font-weight: bold;
+    color: #444;
+  }
+
+  .info li:last-child {
+    padding-top: 20px;
+  }
+  /* End Introduce */
+
+  /* Start Section Person Infor ---------------- */
+
+  .project-icon {
+    margin: 0;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .project-icon:last-child {
+    margin-bottom: 10px;
+  }
+
+  .projectlist {
+    /* margin: none; */
+    margin-top: 15px;
+    padding: 0;
+  }
+
+  /*  END Section Person Infor ---------------- */
+
+  /* Start Certificate - Reward -------------------- */
+  .title-certificate {
+    row-gap: 20px;
+    grid-template-columns: 45% 45%;
+  }
+
+  .certificate-reward {
+    padding-left: 20px;
+  }
+
+  .certificate-details {
+    width: 90%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: none;
+  }
+
+  .certificate-content {
+    width: 100%;
+    height: 80%;
+    background-color: #f5f5f5;
+    text-align: left;
+    padding: 0;
+    padding-top: 5px;
+  }
+
+  .certificate-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .line-border {
+    padding-right: 17px;
+    border-right: solid 1px #d6c08d;
+  }
+
+  .certificate-details {
+    border-bottom: solid 1px #d6c08d;
+  }
+
+  .certificate-img img {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+  }
+
+  .line {
+    padding-right: 17px;
+    border-right: solid 1px #d6c08d;
+  }
+
+  .certificate-content ul {
+    list-style-type: "-";
+    font-size: 12px;
+    color: #6d6d6d;
+    padding: 10px 0 0px 5px;
+  }
+
+  /* END Certificate - Reward -------------------- */
+
+  /* START CV-DIGITAL --------------- */
+  .item {
+    padding-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .item:last-child {
+    padding-right: 20px;
+  }
+
+  .type-timeline {
+    margin-top: 20px;
+    /* padding-left: 32px; */
+  }
+
+  .type-team {
+    text-align: center;
+    /* align-items: start; */
+  }
+
+  .type-team ul {
+    margin-top: 0px;
+  }
+
+  .type-primary {
+    text-align: center;
+  }
+  /* END CV-DIGITAL --------------- */
+}

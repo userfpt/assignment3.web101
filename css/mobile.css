@@ -1,0 +1,183 @@
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+    justify-content: center;
+    /* display: block; */
+    /* width: 576px; */
+    margin: auto;
+
+    line-height: 1.5;
+  }
+
+  section > .container {
+    /* width: 100%; */
+    position: static;
+  }
+
+  header {
+    /* height: 62vh; */
+    /* height: 200px; */
+    max-width: 100%;
+    position: relative;
+    /* position: relative;
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.633),
+        rgba(34, 34, 34, 0.622)
+      ),
+      url(../images/banner.jpg); */
+    text-align: center;
+    /* width: 576px; */
+    color: #f7f7f7;
+  }
+
+  /* navbar */
+
+  .container-inner {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    justify-items: center;
+  }
+
+  .list-nav-bar {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .list-nav-bar li {
+    display: block;
+    /* border-right: solid 1px #e2e2e2; */
+    padding: unset;
+    padding-bottom: 10px;
+    font-size: 12px;
+    /* vertical-align: bottom; */
+    /* height: 30px; */
+    text-align: left;
+    /* padding-bottom: 5px; */
+    border: none;
+  }
+
+  li.avt-nav {
+    /* padding: unset; */
+    padding: 0;
+  }
+
+  .list-nav-bar li:first-child {
+    border-left: none;
+  }
+
+  .nav-certificate {
+    border-left: none;
+  }
+  /* End NAV */
+  /* Start Introduce */
+
+  .about-grey {
+    /* background: linear-gradient(to bottom, #f5f5f5 50%, #f0f0f0 50%); */
+    background: none;
+  }
+
+  .item-info {
+    text-align: left;
+    width: 100%;
+    font-size: 12px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #f5f5f5;
+  }
+
+  .item-info:last-child {
+    text-align: left;
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+  }
+
+  /* End Introduce */
+
+  /* Start Section Person Infor ---------------- */
+
+  .project-icon {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .project-icon:last-child {
+    margin-bottom: 10px;
+  }
+
+  .project-list-info {
+    margin: none;
+  }
+
+  .projectlist {
+    /* margin: none; */
+    margin-left: 10px;
+    padding: 0;
+  }
+
+  /*  END Section Person Infor ---------------- */
+  /* ---------------------------------- */
+  /* Start Certificate - Reward -------------------- */
+
+  .certificate_grey:nth-child(2) {
+    border-left: none;
+    border-top: solid 1px #d6c08d;
+    /* margin-bottom: 10px; */
+    /* margin-left: 10px; */
+    margin-top: 20px;
+  }
+
+  .certificate_grey:nth-child(2) img {
+    margin-top: 20px;
+  }
+
+  /* END Certificate - Reward -------------------- */
+
+  /* Start Project -------------------------*/
+
+  .container-project {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    justify-content: center;
+    row-gap: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .project-detail {
+    margin-top: 40px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .title-project {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  /* END Project -------------------------*/
+
+  /* Start footer -------------------------*/
+  .hide-text {
+    display: none;
+  }
+  /* END footer -------------------------*/
+
+  /* START CV-DIGITAL --------------- */
+
+  /* timeline START------------ */
+  .type-timeline:last-child {
+    margin-bottom: 10px;
+  }
+  /* timeline END---------------- */
+
+  /* END CV-DIGITAL --------------- */
+}
