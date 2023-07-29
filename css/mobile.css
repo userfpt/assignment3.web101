@@ -2,32 +2,20 @@
   body {
     text-align: center;
     justify-content: center;
-    /* display: block; */
-    /* width: 576px; */
     margin: auto;
-
     line-height: 1.5;
   }
 
   section > .container {
-    /* width: 100%; */
     position: static;
   }
 
   header {
-    /* height: 62vh; */
-    /* height: 200px; */
     max-width: 100%;
     position: relative;
-    /* position: relative;
-    background-size: cover;
-    background-image: linear-gradient(
-        rgba(34, 34, 34, 0.633),
-        rgba(34, 34, 34, 0.622)
-      ),
-      url(../images/banner.jpg); */
+
     text-align: center;
-    /* width: 576px; */
+
     color: #f7f7f7;
   }
 
@@ -49,19 +37,15 @@
 
   .list-nav-bar li {
     display: block;
-    /* border-right: solid 1px #e2e2e2; */
     padding: unset;
     padding-bottom: 10px;
-    font-size: 12px;
-    /* vertical-align: bottom; */
-    /* height: 30px; */
+    font-size: 14px;
     text-align: left;
-    /* padding-bottom: 5px; */
     border: none;
+    font-weight: 500;
   }
 
   li.avt-nav {
-    /* padding: unset; */
     padding: 0;
   }
 
@@ -76,28 +60,34 @@
   /* Start Introduce */
 
   .about-grey {
-    /* background: linear-gradient(to bottom, #f5f5f5 50%, #f0f0f0 50%); */
     background: none;
   }
 
   .item-info {
     text-align: left;
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     height: auto;
     margin-top: 0px;
     margin-bottom: 0px;
     background-color: #f5f5f5;
   }
 
+  .item-info p {
+    font-size: 14px;
+  }
+
   .item-info:last-child {
     text-align: left;
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 20px;
     background-color: #f0f0f0;
   }
 
+  .section-title {
+    font-weight: 400;
+  }
   /* End Introduce */
 
   /* Start Section Person Infor ---------------- */

@@ -5,20 +5,13 @@
 body {
   text-align: center;
   justify-content: center;
-
-  /* width: 1170px; */
   margin: auto;
-
   line-height: 1.5;
 }
 
 .about-grey {
   background: linear-gradient(to right, #f5f5f5 50%, #f0f0f0 50%);
 }
-
-/* .point-grey {
-  background-color: #6d6d6d;
-} */
 
 section {
   position: static;
@@ -27,7 +20,6 @@ section {
 }
 
 section > .container {
-  /* max-width: 1170px; */
   position: static;
 }
 
@@ -36,7 +28,6 @@ section > .container {
 }
 
 html {
-  /* font-family: "open_sanslight", sans-serif; */
   font-family: "arial", sans-serif;
   color: #444;
 }
@@ -97,7 +88,6 @@ nav.container-fluid {
   margin: auto;
   width: 100%;
   justify-items: center;
-  /* position: absolute; */
 }
 
 .list-nav-bar {
@@ -112,9 +102,8 @@ nav.container-fluid {
   height: auto;
   border-right: solid 1px #e2e2e2;
   padding: 20px 25px 15px 15px;
-  font-size: 12px;
+  font-size: 14px;
   vertical-align: bottom;
-  /* height: 30px; */
   text-align: center;
 }
 
@@ -130,7 +119,6 @@ li.avt-nav {
   width: 200px;
   height: auto;
   vertical-align: top;
-  /* font-size: 10px; */
   padding: -10px 20px 15px 20px;
   line-height: 1.25;
   border: none;
@@ -160,7 +148,6 @@ i {
 .avt-nav-bar {
   height: 50%;
   width: 50%;
-  /* position: absolute; */
   border: solid 1px #f0f0f0;
   position: absolute;
 }
@@ -178,22 +165,11 @@ i {
 /* End Nav bar --------------------*/
 /* Start Introduce ------------------------*/
 
-/* .grid-container {
-  display: grid;
-  height: auto;
-  width: auto;
-  grid-template-columns: 40% 40%;
-  grid-auto-flow: column;
-  justify-content: center;
-  gap: 10%;
-  margin: auto;
-} */
-
 .item-info {
   text-align: left;
   width: 50%;
-  font-size: 12px;
-  height: 230px;
+  font-size: 14px;
+  /* height: 230px; */
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -201,12 +177,12 @@ i {
 .item-info:last-child {
   text-align: left;
   width: 50%;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .item-info p {
   padding-top: 30px;
-  font-size: 12px;
+  font-size: 14px;
   color: #6d6d6d;
 }
 
@@ -215,7 +191,6 @@ i {
   list-style: none;
   padding-left: 0%;
   color: #6d6d6d;
-  /* padding-bottom: 20px; */
 }
 
 .info span {
@@ -233,34 +208,13 @@ i {
 
 /* Experient  */
 
-/* #item1 {
-  order: 2;
-}
-#item2 {
-  order: 1;
-}
-#item3 {
-  order: 3;
-} */
-/* .item4 {
-  order: 4;
-}
-.item5 {
-  order: 3;
-}
-.item6 {
-  order: 6;
-} */
-
 .job-detail {
-  height: auto;
-  background-position: center;
-  /* position: absolute; */
+  text-align: left;
 }
 
-/* .card {
-  position: relative;
-} */
+.job-detail h1 {
+  padding-left: 25px;
+}
 
 .job-details {
   position: relative;
@@ -268,13 +222,12 @@ i {
   padding-right: 10px;
   margin-top: 10px;
   text-align: left;
-  /* position: absolute; */
 }
 
 .item-content {
   padding-left: 50px;
   padding-top: 30px;
-  font-size: 12px;
+  font-size: 14px;
   color: #444;
   font-weight: bold;
   margin-top: 0;
@@ -315,7 +268,7 @@ i {
 }
 
 .list-job {
-  font-size: 12px;
+  font-size: 14px;
   color: #6d6d6d;
   text-align: left;
 }
@@ -328,7 +281,7 @@ i {
 .text-now {
   border: solid 1px #459bec;
   padding: 4px 7px 4px 7px;
-  font-size: 12px;
+  font-size: 14px;
   background-color: #459bec;
   color: #f0f0f0;
   border-radius: 15%;
@@ -338,7 +291,7 @@ i {
   padding: 10px 0 10px 0px;
   text-align: left;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
   color: #6d6d6d;
   justify-content: center;
@@ -367,9 +320,8 @@ i {
 
 .list-icon-detail li {
   display: inline;
-  /* padding-top: 1000px; */
   padding-right: 15px;
-  font-size: 12px;
+  font-size: 14px;
   color: #6d6d6d;
   width: auto;
 }
@@ -423,8 +375,6 @@ i {
   height: 2px;
   margin-right: 10px;
   width: 45px;
-  /* margin-top: 5px; */
-  /* margin-bottom: 10px; */
 }
 
 /* End Language and  SKILL------------------- */
@@ -439,8 +389,6 @@ i {
 
 .certificate_grey:nth-child(2) {
   border-left: solid 1px #d6c08d;
-  /* margin-bottom: 10px; */
-  /* margin-left: 10px; */
 }
 
 .title-certificate:nth-child(3) {
@@ -450,19 +398,16 @@ i {
 
 .certificate-img {
   width: 100%;
-  /* height: 100%; */
   margin: 0;
-  /* object-fit: cover; */
 }
 
 .certificate-content {
   width: 100%;
-  /* height: 60%; */
+
   background-color: #f5f5f5;
   text-align: left;
   padding: 0;
   margin: 0;
-  /* margin-left: 10px; */
 }
 
 .certificate-content p {
@@ -472,9 +417,6 @@ i {
 
 .certificate-content ul {
   list-style-type: "-";
-  /* font-size: 12px;
-  color: #6d6d6d;
-  padding: 15px 0 15px 5px; */
   margin: 0;
   padding: 0;
 }
@@ -504,9 +446,9 @@ i {
   text-align: left;
   padding: 10px;
   border: solid 1px #e2e2e2;
-  /* font-weight: bold; */
+
   color: #444;
-  font-size: 12px;
+  font-size: 14px;
   padding-bottom: 0;
 }
 
@@ -519,10 +461,10 @@ i {
 
 .project-list-info {
   text-align: left;
-  /* border-bottom: solid 1px #e2e2e2; */
+
   margin: 0%;
   padding: 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #6d6d6d;
   font-weight: 600;
 }
@@ -535,19 +477,6 @@ i {
   color: #f0f0f0;
   margin-bottom: 0;
 }
-/* .job-inner {
-  border: none;
-} */
-
-/* .container-project {
-  display: grid;
-  grid-template-columns: 25% 25% 25%;
-  margin: auto;
-  justify-content: center;
-  column-gap: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-} */
 
 .project-detail {
   width: 100%;
@@ -568,16 +497,9 @@ i {
 }
 
 .project-img img {
-  /* height: 70vh; */
   width: 100%;
   height: auto;
 }
-
-/* .project-list-info li {
-  display: inline-block;
-  padding: 10px;
-  color: #6d6d6d;
-} */
 
 .project-list-info i {
   color: #6d6d6d;
@@ -596,7 +518,7 @@ i {
 .tb-project-content td {
   width: auto;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
   color: #6d6d6d;
   padding: 7px;
   vertical-align: top;
@@ -731,7 +653,7 @@ i {
   text-align: left;
   list-style-type: none;
   padding: 0;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .type-goal li:first-child {
@@ -761,7 +683,7 @@ i {
   margin: 0;
   margin-left: 10px;
   margin-bottom: 15px;
-  font-size: 12px;
+  font-size: 14px;
   margin-right: 20px;
 }
 
@@ -796,7 +718,7 @@ i {
   list-style-type: none;
   padding: 0;
   margin: 15px 10px 10px 10px;
-  font-size: 12px;
+  font-size: 14px;
   /* align-items: center; */
 }
 .type-team i {
@@ -821,11 +743,11 @@ i {
   padding: 0;
   padding-left: 10px;
   /* margin: 15px 10px 10px 10px; */
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .type-primary li:first-child {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   padding-top: 0px;
 
@@ -904,7 +826,7 @@ i {
 }
 
 .type-timeline li {
-  font-size: 12px;
+  font-size: 14px;
   margin-left: 10px;
   margin-bottom: 5px;
 }

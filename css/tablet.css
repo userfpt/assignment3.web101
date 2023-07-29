@@ -1,6 +1,5 @@
 @media (max-width: 992px) {
   section > .container {
-    /* width: auto; */
     position: static;
   }
 
@@ -80,16 +79,6 @@
   }
 
   /* Start Introduce */
-  /* .grid-container {
-    display: grid;
-    height: auto;
-    width: auto;
-    grid-template-columns: 40% 40%;
-    grid-auto-flow: column;
-    justify-content: center;
-    gap: 10%;
-    margin: auto;
-  } */
 
   .item-info {
     text-align: left;
@@ -117,7 +106,6 @@
     list-style: none;
     padding-left: 0%;
     color: #6d6d6d;
-    /* padding-bottom: 20px; */
   }
 
   .info span {
@@ -144,7 +132,6 @@
   }
 
   .projectlist {
-    /* margin: none; */
     margin-top: 15px;
     padding: 0;
   }
@@ -226,12 +213,10 @@
 
   .type-timeline {
     margin-top: 20px;
-    /* padding-left: 32px; */
   }
 
   .type-team {
     text-align: center;
-    /* align-items: start; */
   }
 
   .type-team ul {
