@@ -105,6 +105,7 @@ nav.container-fluid {
   font-size: 14px;
   vertical-align: bottom;
   text-align: center;
+  font-weight: 500;
 }
 
 .list-nav-bar a {
@@ -229,7 +230,7 @@ i {
   padding-top: 30px;
   font-size: 14px;
   color: #444;
-  font-weight: bold;
+  font-weight: 500;
   margin-top: 0;
 }
 
@@ -359,7 +360,7 @@ i {
   padding-bottom: 5px;
   justify-content: start;
   height: auto;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .list-point {
@@ -658,7 +659,7 @@ i {
 
 .type-goal li:first-child {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 500;
   /* padding-top: 15px; */
 }
 
@@ -689,7 +690,7 @@ i {
 
 .type-scope li:first-child {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
   padding-top: 10px;
 }
 
@@ -730,7 +731,7 @@ i {
   padding-top: 5px;
   margin-top: 0;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* Team END --------------------------- */
@@ -833,13 +834,12 @@ i {
 
 .type-timeline li:first-child {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 500;
   padding-top: 15px;
 }
 
 .type-timeline li:last-child {
   margin-bottom: 10px;
-  /* border-bottom: 1px #459bec dotted; */
 }
 
 /* End Digital_CV */
