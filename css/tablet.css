@@ -1,23 +1,5 @@
 @media (max-width: 992px) {
-  section > .container {
-    position: static;
-  }
-
   /* start header--------------------- */
-  header {
-    max-width: 100%;
-    position: relative;
-    text-align: center;
-    color: #f7f7f7;
-  }
-
-  .inner-banner {
-    position: absolute;
-    transform: translate(-50%, -100%);
-    color: #f7f7f7;
-    top: 50%;
-    left: 50%;
-  }
 
   h1 {
     font-size: 36px;
@@ -30,27 +12,8 @@
   }
   /* navbar */
 
-  .container-inner {
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    justify-items: center;
-  }
-
-  .list-nav-bar {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-  }
-
   .list-nav-bar li {
-    display: inline-block;
-    border-right: solid 1px #e2e2e2;
-    padding: 20px 25px 15px 15px;
     font-size: 12px;
-    vertical-align: bottom;
-    height: auto;
-    text-align: center;
   }
 
   .list-nav-bar a {
@@ -80,42 +43,19 @@
 
   /* Start Introduce */
 
-  .item-info {
-    text-align: left;
-    width: 50%;
+  .item-info p {
     font-size: 12px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 40px;
   }
 
   .item-info:last-child {
-    text-align: left;
-    width: 50%;
     font-size: 12px;
   }
 
-  .item-info p {
-    padding-top: 30px;
-    font-size: 12px;
-    color: #6d6d6d;
+  .section-title {
+    font-size: x-large;
+    font-weight: 400;
   }
 
-  .info {
-    padding-top: 30px;
-    list-style: none;
-    padding-left: 0%;
-    color: #6d6d6d;
-  }
-
-  .info span {
-    font-weight: bold;
-    color: #444;
-  }
-
-  .info li:last-child {
-    padding-top: 20px;
-  }
   /* End Introduce */
 
   /* Start Section Person Infor ---------------- */
